@@ -19,7 +19,7 @@ import javafx.scene.control.TextInputControl;
  *
  * @author Éberson
  */
-public class RequeridValidation {
+public class RequiredValidation {
     
     public static Validator<String> build(TextInputControl field, final Label message){
         Validator<String> validator = new Validator<>(field.textProperty(), new TypeValidator<String>() {
